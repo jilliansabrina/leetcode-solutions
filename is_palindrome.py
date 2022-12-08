@@ -3,10 +3,7 @@ class Solution:
         x = str(x)
         y = x[::-1]     
 
-        if x == y:
-            return True
-        else: 
-            return False
+        return x == y
         
 #         revInt = []
 #         for y in range(len(str(x)) - 1, -1, -1):
